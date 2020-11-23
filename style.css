@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap")
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b8c6db;
+    /*für ein Gradient*/
+    background-image: linear-gradient(315deg,
+    #b8c6db 0% #f5f7fa 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+.qiuz-container{
+    /*Dies dient zur positsierung des inhalts innerhalbs des div containers*/
+    position: relative;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.1);
+    width: 400px;
+    height: 200px;
+    padding: 5rem;
+   
+    
+    
+}
+h2{
+    margin: -20px;
+    margin-bottom: 20px;
+}
+.quiz-header{
+    padding: -2rem;
+}
+ul{
+   
+    list-style-type: none;
+    padding-left: 10px;
+    margin-left: -2rem;
+    
+}
+ul li{
+ font-size: 1rem;
+ font-weight: lighter;
+ margin: 1rem 0;
+ text-align: left;
+
+}
+button{
+    /*diese zeile dient zur absoluten Posisinierung in dem Parent Div*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: #4e4bdd;
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    /*cursor: pointer;*/
+  
+    
+}
+
+button:hover{
+    background-color: #3f3dad;
+    cursor: pointer;
+
+}
+
+
